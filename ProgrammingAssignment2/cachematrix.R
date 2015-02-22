@@ -14,7 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
     inver <- NULL
     
     ## Now,I assign new argument which will be my stored value and then
-    ## reset my calculation of inverse
+    ## reset my calculation of inverse.
     
     set <- function(i){
         x <<- i
